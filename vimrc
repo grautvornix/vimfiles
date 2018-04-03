@@ -7,7 +7,6 @@
 :set nowrap
 :set notitle
 :set hlsearch
-:syn on
 :set expandtab
 :set ignorecase
 :set statusline=%<%F%=\ [%1*%M%*%n%R%H]\ %-19(%3l,%02c%03V%)%p'%02b'
@@ -16,6 +15,7 @@
 :set tabstop=2
 :set nocindent
 :set viminfo='100,f1
+:syn on
 :set makeprg=make
 :set cindent
 :set cc=80
